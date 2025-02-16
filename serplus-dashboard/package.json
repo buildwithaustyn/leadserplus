@@ -1,0 +1,41 @@
+{
+  "name": "serplus-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@microsoft/signalr": "^8.0.7",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/supabase-js": "^2.48.1",
+    "@types/twilio": "^3.19.2",
+    "apexcharts": "^4.4.0",
+    "framer-motion": "^12.4.3",
+    "next": "15.1.7",
+    "react": "^19.0.0",
+    "react-apexcharts": "^1.7.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "serpapi": "^2.1.0",
+    "twilio": "^5.4.4"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
